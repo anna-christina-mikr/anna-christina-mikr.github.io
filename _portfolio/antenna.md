@@ -2,14 +2,12 @@
 title: "☄️ Meteor Detection Using Forward Scatter Radar"
 description: "Designing a Yagi antenna and SDR-based system to detect meteors via radio reflection and Doppler analysis."
 ---
-
-## 🎯 Objective
-This project demonstrates how a **software-defined radio (SDR)** and a custom-built **Yagi antenna** can be used to detect meteors through **forward scatter radar**.  
+This project demonstrates how to use software-defined radio (SDR) and a custom-built 3-element Yagi antenna to detect meteors through **forward scatter radar**. The system is relatively straightforward to implement, and yielded phenomenal results
 The system leverages the reflection of VHF signals from ionized meteor trails to observe meteor activity that is otherwise invisible to optical methods.
 
 ---
 
-## 🌌 Concept Overview
+##  Concept Overview
 When a meteor enters Earth’s atmosphere, it ionizes surrounding air molecules, leaving a brief trail of free electrons.  
 These ionized trails reflect radio signals—particularly in the VHF range (30–300 MHz)—which can be detected even when the meteor is below the horizon.
 
@@ -18,13 +16,13 @@ Only when a meteor trail forms between them does a signal “bounce” from the 
 
 ---
 
-## 🧠 System Design
+## System Design
 
-### 🛰️ Transmitter
+### the transmitter
 - Used an existing French space-surveillance radar known as **GRAVES**, which transmits a continuous wave (CW) signal at **143.05 MHz**.  
 - This frequency is ideal for meteor detection because it provides strong reflections from ionized trails without atmospheric absorption.
 
-### 📡 Antenna Design
+### Antenna Design
 A **3-element Yagi-Uda antenna** was designed and built using copper tubing and a wooden boom.
 
 **Key features:**
