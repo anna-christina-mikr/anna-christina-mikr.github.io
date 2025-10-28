@@ -1,4 +1,4 @@
-
+---
 permalink: /
 title: "Academic Pages is a ready-to-fork GitHub Pages template for academic personal websites"
 title: "Anna Micros"
@@ -6,6 +6,8 @@ author_profile: true
 redirect_from: 
   - /about/
   - /about.html
++
+---
 
 # 👋 Hi, I’m Anna Micros
 
