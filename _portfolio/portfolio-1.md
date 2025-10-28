@@ -20,7 +20,7 @@ collection: portfolio
 - GloVe underperformed likely due to its static nature and limited adaptability to domain-specific sentiment.
 
   
-<img src='/images/word_cloud.png' width='1000'>
+<img src='/images/word_cloud.png' width='900'>
 
 ---
 
