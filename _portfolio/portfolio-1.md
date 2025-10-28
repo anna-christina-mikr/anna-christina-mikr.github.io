@@ -18,7 +18,9 @@ collection: portfolio
 - TF–IDF was the best-performing traditional embedding.  
 - Fine-tuned BERT achieved the **highest overall accuracy and AUC**, confirming the advantage of contextual embeddings.  
 - GloVe underperformed likely due to its static nature and limited adaptability to domain-specific sentiment.
-<img src='/images/word_cloud.png' width='200'>
+
+  
+<img src='/images/word_cloud.png' width='1000'>
 
 ---
 
