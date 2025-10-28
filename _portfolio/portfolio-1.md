@@ -19,15 +19,18 @@ collection: portfolio
 - Fine-tuned BERT achieved the **highest overall accuracy and AUC**, confirming the advantage of contextual embeddings.  
 - GloVe underperformed likely due to its static nature and limited adaptability to domain-specific sentiment.
 
+
 ---
 
 ## Model Notebooks
-Each model implementation is available in a separate notebook:
-
+Implementation is available on my github!
+https://github.com/anna-christina-mikr/sentiment-analysis
 - [Logistic Regression Notebook](../notebooks/logistic_regression.ipynb)  
 - [KNN Notebook](../notebooks/knn.ipynb)  
 - [Random Forest Notebook](../notebooks/random_forest.ipynb)  
 - [Deep Neural Network Notebook](../notebooks/deep_neural_network.ipynb)  
 - [BERT Transformer Notebook](../notebooks/bert_transformer.ipynb)
 
+
 ---
+
