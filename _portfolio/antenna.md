@@ -1,11 +1,8 @@
 ---
-title: "NYC Affordable Housing Impact Analysis"
-excerpt: "<img src='/images/meteoobs-schematic.png' width='500'>"
-collection: portfolio
-
----
 title: "☄️ Meteor Detection Using Forward Scatter Radar"
 description: "Designing a Yagi antenna and SDR-based system to detect meteors via radio reflection and Doppler analysis."
+excerpt: "<img src='/images/meteorobs-schematic.png' width='500'>"
+collection: portfolio
 ---
 This project demonstrates how to use software-defined radio (SDR) and a custom-built 3-element Yagi antenna to detect meteors through **forward scatter radar**. The system is relatively straightforward to implement, and yielded phenomenal results
 The system leverages the reflection of VHF signals from ionized meteor trails to observe meteor activity that is otherwise invisible to optical methods.
