@@ -1,4 +1,9 @@
 ---
+title: "NYC Affordable Housing Impact Analysis"
+excerpt: "<img src='/images/meteoobs-schematic.png' width='500'>"
+collection: portfolio
+
+---
 title: "☄️ Meteor Detection Using Forward Scatter Radar"
 description: "Designing a Yagi antenna and SDR-based system to detect meteors via radio reflection and Doppler analysis."
 ---
