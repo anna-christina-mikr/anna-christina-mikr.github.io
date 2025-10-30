@@ -32,8 +32,8 @@ A **3-element Yagi-Uda antenna** was designed and built using copper tubing and 
 
 The antenna was oriented southeast (toward the transmitter) and tilted slightly upward to match typical meteor altitudes (~90 km).
 
-*Example schematic of antenna dimensions:*  
-![](../images/yagi_diagram.png)
+Here was my setup! Bulding the antenna from scratch was really rewarding, seeing how the precise measurements and structures 
+![](anna-christina-mikr/anna-christina-mikr.github.io/images/yagi_diagram.png)
 
 ---
 
