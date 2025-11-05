@@ -2,6 +2,9 @@ title: "Anna Micros"
 description: "Data Science & Analytics Portfolio"
 remote_theme: "mmistakes/minimal-mistakes@4.24.0"
 
+include: 
+- _pages 
+
 plugins:
   - jekyll-include-cache
   - jekyll-paginate
@@ -13,10 +16,17 @@ plugins:
 markdown: kramdown
 
 author:
-  name: "Anna Micros"
-  bio: "Data Science & Analytics | Data Storyteller"
-  avatar: "/assets/images/bio.jpg"
+  name   : "Anna Micros"
+  avatar : "/assets/images/site_ui/bio_picture_cat.png"
+  bio    : "Data Science & Analytics, Data Storyteller"
 
+footer:
+  links:
+    - label: "LinkedIn"
+      url: "https://www.linkedin.com/in/anna-micros/"
+    - label: "GitHub"
+      url: "https://github.com/anna-christina-mikr"
+  
 defaults:
   - scope:
       path: ""
