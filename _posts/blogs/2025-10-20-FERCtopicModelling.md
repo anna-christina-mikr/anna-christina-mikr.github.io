@@ -41,7 +41,7 @@ Each raw news text file was compliled by taking multiple energy articles from th
 
 
 <div class="container">
-  <img src="https://anna-christina-mikr/anna-christina-mikr.github.io/assets/images/trigram.png" alt="Trigram Frequency in news data" width="600" height="400">
+  <img src="https://github.com/anna-christina-mikr/anna-christina-mikr.github.io/blob/main/assets/images/trigram.png" alt="Trigram Frequency in news data" width="600" height="400">
 </div>
 
 Using the keyboard shortcut (Option + Space) to open the GPT app and clicking ‘Take Screenshot’ of the browser was simple. GPT immediately provided a very accurate and detailed explanation of the chart, even highlighting key insights. I particularly liked how it called out ‘the significant role of AWS in Amazon’s financial structure.’
