@@ -1,5 +1,5 @@
 title: "Anna Micros"
-description: "Data Science Portfolio
+description: "Data Science & Analytics Portfolio"
 remote_theme: "mmistakes/minimal-mistakes@4.24.0"
 
 plugins:
@@ -10,8 +10,6 @@ plugins:
   - jemoji
   - jekyll-seo-tag
 
-paginate: 5
-paginate_path: "/page:num/"
 markdown: kramdown
 
 author:
