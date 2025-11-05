@@ -33,11 +33,6 @@ This shutdown has hit energy hard, with soaring prices and delays on energy prod
 
 The data for this project is almost 5000 articles from the same time windows in 2024 and 2025: spanning from February to July. Did some standard preprocessing for text, removed stopwords, punctuation and tokenized the data. We ended up with 
 
-> “For both free and paid users, we're also launching a new ChatGPT desktop app for macOS that is designed to integrate seamlessly into anything you’re doing on your computer. With a simple keyboard shortcut (Option + Space), you can instantly ask ChatGPT a question. You can also take and discuss screenshots directly in the app.”
-
-I downloaded the app yesterday to try it out. At first glance, it looked like a simple replication of the web version, but I soon realized why it could effectively “integrate seamlessly into anything you’re doing on your computer.”
-
-In the section below, I will walk you through a quick example of how to use it to assist with your data analysis work.
 
 
 ### Extract articles from txt files. 
