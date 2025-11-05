@@ -52,10 +52,11 @@ Latend Dirichlet Allocation (not to be confused with Linear Discriminant analysi
 The best method for topic number selection is using a key metric, plotting its value for a chosen range of possible topic numbers, and see where this value plateaus, where adding new topics offers no better value. I chose **Topic Coherece**, a measure of how similar words within a topic are.  
 
 <div class="container">
-<img width="576" height="325" alt="Screenshot 2025-11-05 at 3 26 56 PM" src="https://github.com/user-attachments/assets/3c37cc77-97f5-4fde-a6f0-6626def89925" width="600" height="400" />
+  <img width="576" height="325" alt="Screenshot 2025-11-05 at 3 26 56 PM" src="https://github.com/user-attachments/assets/3c37cc77-97f5-4fde-a6f0-6626def89925" width="600" height="400" />
 </div>
 
-Using the keyboard shortcut (Option + Space) to open the GPT app and clicking ‘Take Screenshot’ of the browser was simple. GPT immediately provided a very accurate and detailed explanation of the chart, even highlighting key insights. I particularly liked how it called out ‘the significant role of AWS in Amazon’s financial structure.’
+Interestingly, the coherence score reaches a peak at 12 topics and then steadily goes down. These values are not dramatically different, as a C_V score in the range of 0.5-0.59 is considered decent, but it is not the behavior we expect. This sharp decrease in performance could be due to the fact that our corpus is exclusively concerning energy news, so there is a lot of overlap in the topics discussed. In a different topic modelling scenario, e.g. modelling research papers: we would end up getting very distinct topics such as History, Physics, Anthropology, Political Science etc. Here, we reach a limit where no more specificity can be achieved, as each word has been allocated to a redundant subtopic that does not offer any more nuance. In our case, the energy news corpus is lexically and conceptually dense, with few truly distinct themes, after 12 topics the model keeps slicing coherent topics into smaller, overlapping pieces, which coherence penalizes it harshly.
+
 
 <div class="container">
   <img src="https://yudong-94.github.io/personal-website/assets/images/gpt-screenshots/gptapp_chart_interpratation.png" alt="GPT Chart Interpretation 1" width="300" height="600">
