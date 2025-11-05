@@ -30,6 +30,9 @@ excerpt: "How does the media shape the conversation around energy?"
 Today marks the longest government lockdown in government history. 
 This shutdown has hit energy hard, with soaring prices and delays on energy production projects. At the same time, there is a huge conversation around meeting electricity demands of power hungry AI by building more data centers, and the impact that has on local communities. There are dozens of other conversations happening in the energy space and this is what my group was interested in looking at and how the recent change in political power has shifted these conversations. 
 
+
+The data for this project is almost 5000 articles from the same time windows in 2024 and 2025: spanning from February to July. Did some standard preprocessing for text, removed stopwords, punctuation and tokenized the data. We ended up with 
+
 > “For both free and paid users, we're also launching a new ChatGPT desktop app for macOS that is designed to integrate seamlessly into anything you’re doing on your computer. With a simple keyboard shortcut (Option + Space), you can instantly ask ChatGPT a question. You can also take and discuss screenshots directly in the app.”
 
 I downloaded the app yesterday to try it out. At first glance, it looked like a simple replication of the web version, but I soon realized why it could effectively “integrate seamlessly into anything you’re doing on your computer.”
@@ -37,9 +40,10 @@ I downloaded the app yesterday to try it out. At first glance, it looked like a 
 In the section below, I will walk you through a quick example of how to use it to assist with your data analysis work.
 
 
-### Extract Info from a Webpage
+### Extract articles from txt files. 
 
-I started with a visualization of Amazon’s FY23 financial numbers from the [Chartr Newsletter](https://www.chartr.co/newsletters/2024-04-05). It is an elegant Sankey diagram that explains the main sources of Amazon’s revenue and expenses, but not one of those common visualization types. Therefore, I decided to share it with GPT and ask it to explain the chart.
+Each raw news text file was compliled by taking multiple energy articles from the same day scaped from the web. As a result, a lot of these files end up hacing inconsistent spacing and formatting, as well as relics from the web interface. Luckily I had a list of all article titles at hand that i could utilize, but they were not always an exact match to the text. In order to segment the articles accurately, I tried implementing fuzzy string matching (Levenshtein distance) to align detected titles with known article headers. I managed to successfully link about 2,859 of 4,751 titles. After segmentation, articles underwent standard NLP preprocessing: tokenization, stopword and punctuation removal, and exclusion of filler journalistic terms (e.g., “said,” “reported”), resulting in a clean, comparable corpus suitable for topic modeling.
+
 
 <div class="container">
   <img src="https://yudong-94.github.io/personal-website/assets/images/gpt-screenshots/gptapp_amazon_viz_chartr.png" alt="Chartr Visualization of Amazon FY23" width="600" height="400">
