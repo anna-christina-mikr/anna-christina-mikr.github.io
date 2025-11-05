@@ -1,0 +1,28 @@
+title: "Anna Micros"
+description: "Data Science Portfolio
+remote_theme: "mmistakes/minimal-mistakes@4.24.0"
+
+plugins:
+  - jekyll-include-cache
+  - jekyll-paginate
+  - jekyll-sitemap
+  - jekyll-feed
+  - jemoji
+  - jekyll-seo-tag
+
+paginate: 5
+paginate_path: "/page:num/"
+markdown: kramdown
+
+author:
+  name: "Anna Micros"
+  bio: "Data Science & Analytics | Data Storyteller"
+  avatar: "/assets/images/bio.jpg"
+
+defaults:
+  - scope:
+      path: ""
+      type: "posts"
+    values:
+      layout: single
+      author_profile: true
