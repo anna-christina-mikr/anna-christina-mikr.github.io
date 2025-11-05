@@ -41,7 +41,7 @@ Each raw news text file was compliled by taking multiple energy articles from th
 
 
 <div class="container">
-  <img src="https://github.com/anna-christina-mikr/anna-christina-mikr.github.io/blob/main/images/article_covers/trigram.png" alt="Trigram Frequency in news data" width="600" height="400">
+  <img src="/images/article_covers/trigram.png" alt="Trigram Frequency in news data" width="600" height="400">
 </div>
 
 Here we see some of the top word trigrams visualized. This help us contextualize what we 3 words phrases we typically see in these articles, which can help us later with our topic analysis. 
