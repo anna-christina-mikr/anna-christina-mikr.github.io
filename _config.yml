@@ -17,7 +17,7 @@ markdown: kramdown
 
 author:
   name   : "Anna Micros"
-  avatar : "/assets/images/site_ui/bio_picture_cat.png"
+  avatar : "/assets/images/ui/bio.png"
   bio    : "Data Science & Analytics, Data Storyteller"
 
 footer:
