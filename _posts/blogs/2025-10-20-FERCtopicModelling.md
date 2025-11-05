@@ -44,6 +44,14 @@ Each raw news text file was compliled by taking multiple energy articles from th
   <img src="https://github.com/anna-christina-mikr/anna-christina-mikr.github.io/blob/main/assets/images/trigram.png" alt="Trigram Frequency in news data" width="600" height="400">
 </div>
 
+Here we see some of the top word trigrams visualized. This help us contextualize what we 3 words phrases we typically see in these articles, which can help us later with our topic analysis. 
+<img width="576" height="325" alt="Screenshot 2025-11-05 at 3 26 56 PM" src="https://github.com/user-attachments/assets/3c37cc77-97f5-4fde-a6f0-6626def89925" />
+
+### Using LDA as a baseline
+Latend Dirichlet Allocation (not to be confused with Linear Discriminant analysis) is a topic modelling technique that uses Bayesian modelling. In other words, it is a proabilistic method, given a corpus it'll bunch together words in this corpus based on how likely they ate to be seen together, it does this until the entire corpus can be segmented into a given number of topics. As you can imagine, the number of topics is important, it affects how cohesive the topics are. 
+The best method for topic number selection is using a key metric, plotting its value for a chosen range of possible topic numbers, and see where this value plateaus, where adding new topics offers no better value. I chose **Topic Coherece**, a measure of how similar words within a topic are.  
+
+
 Using the keyboard shortcut (Option + Space) to open the GPT app and clicking ‘Take Screenshot’ of the browser was simple. GPT immediately provided a very accurate and detailed explanation of the chart, even highlighting key insights. I particularly liked how it called out ‘the significant role of AWS in Amazon’s financial structure.’
 
 <div class="container">
