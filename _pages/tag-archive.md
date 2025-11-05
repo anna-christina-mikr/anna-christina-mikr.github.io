@@ -1,3 +1,6 @@
 ---
 title: "Posts by Tag"
-t
+layout: tags
+permalink: /tags/
+aythor_profile: true
+---
