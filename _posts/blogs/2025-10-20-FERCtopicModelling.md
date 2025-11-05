@@ -4,12 +4,12 @@ date: 2024-05-26
 categories:
   - blog
 tags:
-  - llm
+  - topic modelling
   - data science
   - analysis
 header:
   teaser: /assets/images/article_covers/grid.png
-excerpt: "How does ChatGPT Desktop App seamlessly integrate into your data analysis workflow and boost productivity."
+excerpt: "How does the media shape the conversation around energy?"
 ---
 
 <style>
@@ -27,7 +27,9 @@ excerpt: "How does ChatGPT Desktop App seamlessly integrate into your data analy
 
 ### Context
 
-OpenAI [launched](https://openai.com/index/gpt-4o-and-more-tools-to-chatgpt-free/) its desktop App earlier this month.
+Today marks the longest government lockdown in government history. 
+This shutdown has hit energy hard, with soaring prices and delays on energy production projects. At the same time, there is a huge conversation around meeting electricity demands of power hungry AI by building more data centers, and the impact that has on local communities. There are dozens of other conversations happening in the energy space and this is what my group was interested in looking at and how the recent change in political power has shifted these conversations. 
+
 > “For both free and paid users, we're also launching a new ChatGPT desktop app for macOS that is designed to integrate seamlessly into anything you’re doing on your computer. With a simple keyboard shortcut (Option + Space), you can instantly ask ChatGPT a question. You can also take and discuss screenshots directly in the app.”
 
 I downloaded the app yesterday to try it out. At first glance, it looked like a simple replication of the web version, but I soon realized why it could effectively “integrate seamlessly into anything you’re doing on your computer.”
