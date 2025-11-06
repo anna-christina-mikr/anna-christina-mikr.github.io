@@ -17,6 +17,10 @@ markdown: kramdown
 kramdown:
   input: GFM
   hard_wrap: false
+  paginate: 5 #amount of posts to show
+  paginate_path: /page:num/
+  timezone: America/New_York 
+  
 
 author:
   name   : "Anna Micros"
