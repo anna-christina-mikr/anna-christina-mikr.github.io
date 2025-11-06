@@ -48,7 +48,8 @@ Here we see some of the top word trigrams visualized. This help us contextualize
 
 
 ### Using LDA as a baseline
-Latend Dirichlet Allocation (not to be confused with Linear Discriminant analysis) is a topic modelling technique that uses Bayesian modelling. In other words, it is a proabilistic method, given a corpus it'll bunch together words in this corpus based on how likely they ate to be seen together, it does this until the entire corpus can be segmented into a given number of topics. As you can imagine, the number of topics is important, it affects how cohesive the topics are. 
+Latend Dirichlet Allocation (not to be confused with Linear Discriminant analysis) is a topic modelling technique that uses Bayesian modelling to cluster words into topics. In other words, it assumes that given a corpus of words, each word can be allocated to a discrete set of topics. As you can imagine, the number of topics chosen is important, it affects how cohesive the topics are. 
+
 The best method for topic number selection is using a key metric, plotting its value for a chosen range of possible topic numbers, and see where this value plateaus, where adding new topics offers no better value. I chose **Topic Coherece**, a measure of how similar words within a topic are.  
 
 <div class="container">
@@ -56,6 +57,10 @@ The best method for topic number selection is using a key metric, plotting its v
 </div>
 
 Interestingly, the coherence score reaches a peak at 12 topics and then steadily goes down. These values are not dramatically different, as a C_V score in the range of 0.5-0.59 is considered decent, but it is not the behavior we expect. This sharp decrease in performance could be due to the fact that our corpus is exclusively concerning energy news, so there is a lot of overlap in the topics discussed. In a different topic modelling scenario, e.g. modelling research papers: we would end up getting very distinct topics such as History, Physics, Anthropology, Political Science etc. Here, we reach a limit where no more specificity can be achieved, as each word has been allocated to a redundant subtopic that does not offer any more nuance. In our case, the energy news corpus is lexically and conceptually dense, with few truly distinct themes, after 12 topics the model keeps slicing coherent topics into smaller, overlapping pieces, which coherence penalizes it harshly.
+
+Another way however to evaluate our choice for number of topics is to check the topic 
+
+
 
 
 <div class="container">
