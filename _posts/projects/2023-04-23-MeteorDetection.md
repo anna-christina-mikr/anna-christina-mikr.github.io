@@ -2,7 +2,7 @@
 title: "Meteor Observation by Forward Scatter Radar"
 date: 2023-04-23
 categories:
-  - projects
+  - project
 tags:
   - physics
   - signal-processing
