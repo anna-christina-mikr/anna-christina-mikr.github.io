@@ -74,9 +74,11 @@ Another way however to evaluate our choice for number of topics is to check the 
 This approach uncovers another aspect of LDA, topics may have similar meaning between each other, yielding a high coherence score, but they may also have a lot of overlap. This graph is from gensim's package  **pyLDAvis**, its a great tool to visualize topic similarity!
 It utilies the relevance of a word *w* to a topic *t*, calculated as:
 
+
 $$
 r(w, t \mid \lambda) = \lambda \, p(w \mid t) + (1 - \lambda) \, \frac{p(w \mid t)}{p(w)}
 $$
+
 
 Here, λ (*lambda*) controls the balance between how **frequent** and how **distinctive** a term is:
 
