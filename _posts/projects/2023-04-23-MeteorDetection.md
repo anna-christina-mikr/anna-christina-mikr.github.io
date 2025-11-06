@@ -3,7 +3,7 @@ title: "Meteor Observation by Forward Scatter Radar"
 excerpt: "A hands-on exploration of meteor detection using a custom-built Yagi antenna and a software-defined radio system."
 date: 2023-11-12
 header:
-  image: /images/article_covers/meteor_scatter_cover.jpg
+  image: /images/article_covers/meteorobs-schematic.png
   caption: "Waterfall plot showing an overdense meteor echo at 143.05 MHz."
 categories:
   - projects
