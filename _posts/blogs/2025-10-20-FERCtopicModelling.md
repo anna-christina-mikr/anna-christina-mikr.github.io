@@ -65,7 +65,7 @@ Another way however to evaluate our choice for number of topics is to check the 
 
 
 <iframe src="/images/ferc/lda-viz.html"
-        width="140%"
+        width="200%"
         height="550"
         style="border:none; border-radius:10px;">
 </iframe>
