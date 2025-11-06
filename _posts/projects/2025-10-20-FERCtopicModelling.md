@@ -20,10 +20,11 @@ excerpt: "How does the media shape the conversation around energy?"
     }
     img {
         margin: 10px;
-        max-width: 100%;
+        max-width: 130%;
         height: auto;
     }
 </style>
+
 
 ### Context
 
