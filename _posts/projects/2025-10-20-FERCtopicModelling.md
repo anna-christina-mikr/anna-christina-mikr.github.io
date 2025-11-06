@@ -23,6 +23,9 @@ excerpt: "How does the media shape the conversation around energy?"
         max-width: 130%;
         height: auto;
     }
+  .page_content {
+    max-width: 1100px !important;
+  }
 </style>
 
 
