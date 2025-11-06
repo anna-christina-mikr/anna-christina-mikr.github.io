@@ -1,4 +1,5 @@
 ---
+layout: single
 title: "What Drives the Conversation? Exploring Energy News Through Topic Modeling"
 date: 2024-05-26
 categories:
@@ -10,7 +11,7 @@ tags:
 header:
   teaser: /images/article_covers/grid.png
 excerpt: "How does the media shape the conversation around energy?"
-classes: wide-article
+custom_css: ferc.css
 ---
 
 <style>
