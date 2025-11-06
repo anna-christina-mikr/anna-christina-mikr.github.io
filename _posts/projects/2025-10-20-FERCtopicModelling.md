@@ -10,6 +10,7 @@ tags:
 header:
   teaser: /images/article_covers/grid.png
 excerpt: "How does the media shape the conversation around energy?"
+classes= wide-article
 ---
 
 <style>
@@ -23,9 +24,7 @@ excerpt: "How does the media shape the conversation around energy?"
         max-width: 130%;
         height: auto;
     }
-  .page_content {
-    max-width: 1100px !important;
-  }
+
 </style>
 
 
