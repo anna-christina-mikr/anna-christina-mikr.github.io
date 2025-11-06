@@ -154,3 +154,40 @@
   max-width: 100%;
   height: auto;
 }
+/* === ARTICLE LIST STYLING WITH IMAGES === */
+.archive__item {
+  display: flex;
+  align-items: center;
+  gap: 1.5rem;            /* space between image and text */
+  padding: 1.5em;
+  transition: transform 0.2s ease-in-out;
+}
+
+.archive__item:hover {
+  transform: scale(1.02); /* gentle hover zoom */
+}
+
+.archive__item-teaser {
+  flex-shrink: 0;
+  width: 180px;           /* increase thumbnail size */
+  height: 120px;
+  border-radius: 10px;    /* rounded corners */
+  overflow: hidden;
+}
+
+.archive__item-teaser img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.archive__item-title {
+  font-size: 1.4rem;      /* larger title */
+  margin-bottom: 0.4em;
+}
+
+
+.page__content {
+  max-width: 950px;       /* slightly wider content area */
+  margin: 0 auto;
+}
