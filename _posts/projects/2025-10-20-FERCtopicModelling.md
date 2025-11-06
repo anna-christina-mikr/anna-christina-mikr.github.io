@@ -129,7 +129,7 @@ Beyond static interpretation, these topics also open the door to temporal compar
 
 <iframe
   src="https://public.tableau.com/views/newsarticletopicdistribution&#47;Dashboard1?:showVizHome=no&:embed=true"
-  width="100%"
+  width="200%"
   height="800"
   style="border:none; border-radius:10px;">
 </iframe>
