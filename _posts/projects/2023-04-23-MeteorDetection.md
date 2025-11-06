@@ -33,8 +33,12 @@ The setup included:
 - **Reflector**, **Dipole**, and **Director** elements to enhance forward gain.
 - **Coaxial connection** to the SDR dongle for signal capture.
 - Orientation toward **GRAVES** in France, with calculated elevation for optimal reflection angles.
-  
-<img width="737" height="942" alt="Screenshot 2025-10-28 at 1 04 07 PM" src="https://github.com/user-attachments/assets/18bf384b-0338-4543-956d-3fe1200b7157"  "My setup"/>
+
+
+
+<div class="container">
+  <img width="737" height="942" alt="Screenshot 2025-10-28 at 1 04 07 PM" src="https://github.com/user-attachments/assets/18bf384b-0338-4543-956d-3fe1200b7157" />
+</div>
 
 #### Software Setup
 Signal processing was performed in **SDRsharp**, displaying intensity over time as a *waterfall plot*. Automated screen captures every 15 seconds enabled continuous observation from November 5–17. Meteor echoes were later classified manually as **underdense** or **overdense** based on signal shape and duration.
