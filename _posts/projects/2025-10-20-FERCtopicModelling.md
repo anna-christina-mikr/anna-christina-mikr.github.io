@@ -96,6 +96,17 @@ We see here that a 12 topic LDA is insufficient, we have a lot of topic overlap;
 
 Here we see that with nine topics a much better separated topics, so we are sticking with 9. Here are some words from the topics:
 
+| **Topic ID** | **Top Terms** | **Likely Theme / Interpretation** |
+|---------------|---------------|-----------------------------------|
+| **0** | bill, house, republican, senate, tax, trump, committee, credit, democrat, budget | Federal policy and legislation |
+| **1** | data, plant, demand, coal, nuclear, center, price, july, generation, reactor | Data centers, power generation, and nuclear demand |
+| **2** | agency, rule, court, epa, environmental, trump, ferc, climate, order, law | Regulation, courts, and environmental policy |
+| **3** | ferc, transmission, order, utility, rate, miso, market, proposal, pjm, process | Transmission and FERC regulatory orders |
+| **4** | dam, water, river, pipeline, county, safety, area, lake, land, million | Infrastructure, water resources, and safety |
+| **5** | capacity, market, gw, mw, pjm, demand, load, price, generation, solar | Grid capacity, markets, and generation |
+| **6** | utility, transmission, electricity, solar, demand, line, system, wind, data, center | Utilities, electrification, and renewables |
+| **7** | lng, export, pipeline, wind, facility, global, offshore, million, terminal, permit | LNG exports and offshore energy infrastructure |
+| **8** | tariff, trump, lng, market, trade, oil, april, global, supply, import | Trade, tariffs, and global energy markets |
 
 
 ### Analyze and Visualize Data
