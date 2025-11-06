@@ -71,8 +71,19 @@ Another way however to evaluate our choice for number of topics is to check the 
 </iframe>
 
 
+This approach uncovers another aspect of LDA, topics may have similar meaning between each other, yielding a high coherence score, but they may also have a lot of overlap. This graph is from gensim's package  **pyLDAvis**, its a great tool to visualize topic similarity!
+It utilies the relevance of a word *w* to a topic *t*, calculated as:
 
-Taking it one step further, I challenged it to extract the data points as a downloadable dataset. It successfully saved the dataset as a CSV file with a download link! Notably, in the chart, there are two ‘Other’ categories, one under revenue and another under expenses. GPT automatically renamed one of them to ‘Other Expenses’ to avoid confusion – a detail I appreciated.  
+$$
+r(w, t \mid \lambda) = \lambda \, p(w \mid t) + (1 - \lambda) \, \frac{p(w \mid t)}{p(w)}
+$$
+
+Here, λ (*lambda*) controls the balance between how **frequent** and how **distinctive** a term is:
+
+- **λ = 1** → ranks words by how common they are within the topic (general terms).  
+- **λ = 0** → ranks words by how unique they are to that topic (specific terms).  
+- **λ ≈ 0.6** (default) → balances both views for interpretability.
+
 
 <div class="container">
   <img src="https://yudong-94.github.io/personal-website/assets/images/gpt-screenshots/gptapp_csv.png" alt="GPT Generated CSV" width="600" height="400">
