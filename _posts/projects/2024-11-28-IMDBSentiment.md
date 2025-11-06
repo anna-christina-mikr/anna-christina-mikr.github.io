@@ -45,6 +45,7 @@ These clear distinctions highlighted the potential of text-based sentiment model
 <div class="container"
   <img width="792" height="265" alt="Screenshot 2025-11-06 at 1 28 55 PM" src="https://github.com/user-attachments/assets/5d0e11b9-524b-45fb-ab77-b6ffc27c96ea" />
 </div>
+
 ---
 
 ## Methodology
