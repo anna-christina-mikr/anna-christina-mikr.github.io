@@ -128,11 +128,15 @@ In other words, the “energy transition” isn’t just happening in the grid �
 Beyond static interpretation, these topics also open the door to temporal comparison.
 
 <iframe
-  src="https://public.tableau.com/views/newsarticletopicdistribution/Dashboard1?:language=en-US&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link"
+  src="https://public.tableau.com/views/newsarticletopicdistribution&#47;Dashboard1?:showVizHome=no&:embed=true"
   width="100%"
   height="800"
   style="border:none; border-radius:10px;">
 </iframe>
+
+
+
+
 
 
 ### Analyze and Visualize Data
