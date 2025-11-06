@@ -20,9 +20,12 @@ This project explores how meteors can be detected using **forward scatter radar*
 ### Motivation
 After radar’s use in World War II, researchers discovered that meteors produced “false echoes” on radar screens. These reflections inspired a new way of observing meteor activity — by detecting their ionized trails through radio signals rather than optical telescopes. The project aimed to recreate this phenomenon with affordable, open-source tools.
 
+This was my final project for my bachelor's degree in physics back in 2023! I did really enjoy this project and I constantly revisit it; at the time I did not have much experience in coding, but I think this project could really be streamlined using machine learning! Although sadly i no longer have the data, I want to go through how this could be improved has computer vision been incorporated. But first, here is the design and results: 
+
 ---
 
 ### System Design
+
 
 #### Antenna Construction
 The antenna used was a **Yagi-Uda** design optimized for 143.05 MHz (λ = 2.097 m). Its copper elements were cut and mounted on a wooden boom to ensure non-conductivity and stability.  
@@ -30,6 +33,8 @@ The setup included:
 - **Reflector**, **Dipole**, and **Director** elements to enhance forward gain.
 - **Coaxial connection** to the SDR dongle for signal capture.
 - Orientation toward **GRAVES** in France, with calculated elevation for optimal reflection angles.
+  
+<img width="737" height="942" alt="Screenshot 2025-10-28 at 1 04 07 PM" src="https://github.com/user-attachments/assets/18bf384b-0338-4543-956d-3fe1200b7157"  "My setup"/>
 
 #### Software Setup
 Signal processing was performed in **SDRsharp**, displaying intensity over time as a *waterfall plot*. Automated screen captures every 15 seconds enabled continuous observation from November 5–17. Meteor echoes were later classified manually as **underdense** or **overdense** based on signal shape and duration.
