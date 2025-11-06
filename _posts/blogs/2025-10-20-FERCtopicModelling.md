@@ -56,15 +56,20 @@ The best method for topic number selection is using a key metric, plotting its v
   <img width="576" height="325" alt="Screenshot 2025-11-05 at 3 26 56 PM" src="https://github.com/user-attachments/assets/3c37cc77-97f5-4fde-a6f0-6626def89925" width="600" height="400" />
 </div>
 
+
+
 Interestingly, the coherence score reaches a peak at 12 topics and then steadily goes down. These values are not dramatically different, as a C_V score in the range of 0.5-0.59 is considered decent, but it is not the behavior we expect. This sharp decrease in performance could be due to the fact that our corpus is exclusively concerning energy news, so there is a lot of overlap in the topics discussed. In a different topic modelling scenario, e.g. modelling research papers: we would end up getting very distinct topics such as History, Physics, Anthropology, Political Science etc. Here, we reach a limit where no more specificity can be achieved, as each word has been allocated to a redundant subtopic that does not offer any more nuance. In our case, the energy news corpus is lexically and conceptually dense, with few truly distinct themes, after 12 topics the model keeps slicing coherent topics into smaller, overlapping pieces, which coherence penalizes it harshly.
 
 Another way however to evaluate our choice for number of topics is to check the topic:
+
+
 
 <iframe src="/images/ferc/lda-viz.html"
         width="100%"
         height="650"
         style="border:none; border-radius:10px;">
 </iframe>
+
 
 
 Taking it one step further, I challenged it to extract the data points as a downloadable dataset. It successfully saved the dataset as a CSV file with a download link! Notably, in the chart, there are two ‘Other’ categories, one under revenue and another under expenses. GPT automatically renamed one of them to ‘Other Expenses’ to avoid confusion – a detail I appreciated.  
