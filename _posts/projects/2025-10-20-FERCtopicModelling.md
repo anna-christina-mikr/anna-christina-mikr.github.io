@@ -146,37 +146,8 @@ Topic 1: data centers and nuclear generation increase significatly between 2024 
 Topic 2: 
 
 
-### Analyze and Visualize Data
 
-GPT has the amazing capability of data analysis as I have evaluated in [this blog](https://yudong-94.github.io/personal-website/blog/EvaluatingChatGPTinDataScience/). It is even becoming stronger with [recent updates](https://openai.com/index/improvements-to-data-analysis-in-chatgpt/), though I haven’t got access to features like real-time table and visualization edits yet.
 
-To continue testing the Desktop App, I asked it to make a visualization using the same dataset it had just prepared for me. It created a simple visualization with two bar charts and a text label of the operating profit at the bottom. This visualization is simple but effective in conveying the story.
-
-<div class="container">
-  <img src="https://yudong-94.github.io/personal-website/assets/images/gpt-screenshots/gptapp_gpt_visualization.png" alt="GPT Visualization 1" width="300" height="600">
-  <img src="https://yudong-94.github.io/personal-website/assets/images/gpt-screenshots/gptapp_gpt_visualization2.png" alt="GPT Visualization 2" width="300" height="600">
-</div>
-
-I then asked it to calculate the profit margin for me. It provided the correct answer with well-formatted formulas, explanations, and the underlying Python code.
-
-<div class="container">
-  <img src="https://yudong-94.github.io/personal-website/assets/images/gpt-screenshots/gptapp_profit_margin.png" alt="GPT Profit Margin Calculation" width="600" height="400">
-</div>
-
-### Real-time Data Tool Assistance
-
-The last thing I tested was how it could assist me using various data tools. I used Tableau to make a rough visualization using the same dataset, pretending I didn’t know much about Tableau. I then took a screenshot and asked GPT how to improve it.
-
-It provided high-level recommendations as well as step-by-step guidance. These were accurate and easy to follow. The adjusted visualization turned out to be quite similar to the one GPT made earlier, not very advanced but straightforward with this simple dataset. I am excited to utilize this capability further for my [weekly visualization project](https://yudong-94.github.io/personal-website/tags/#data-visualization).
-
-<div class="container">
-  <img src="https://yudong-94.github.io/personal-website/assets/images/gpt-screenshots/gptapp_tableau_draft.png" alt="GPT Tableau Guidance 1" width="300" height="600">
-  <img src="https://yudong-94.github.io/personal-website/assets/images/gpt-screenshots/gptapp_tableau_guidance.png" alt="GPT Tableau Guidance 2" width="300" height="600">
-</div>
-
-<div class="container">
-  <img src="https://yudong-94.github.io/personal-website/assets/images/gpt-screenshots/gptapp_tableau_final.png" alt="GPT Guided Tableau Visualization" width="600" height="400">
-</div>
 
 ### Final Thoughts
 
