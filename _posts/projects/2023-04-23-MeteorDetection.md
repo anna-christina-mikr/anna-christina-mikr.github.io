@@ -8,25 +8,11 @@ tags:
   - signal-processing
   - sdr
   - radar
-layout: single
-author_profile: true
 header:
   teaser: /images/article_covers/meteorobs-schematic.png
 excerpt: "A hands-on exploration of meteor detection using a custom-built Yagi antenna and a software-defined radio system."
 ---
-layout: single
-title: "What Drives the Conversation? Exploring Energy News Through Topic Modeling"
-date: 2024-05-26
-categories:
-  - project
-tags:
-  - topic modelling
-  - data science
-  - analysis
-header:
-  teaser: /images/article_covers/grid.png
-excerpt: "How does the media shape the conversation around energy?"
----
+
 
 ### Overview
 This project explores how meteors can be detected using **forward scatter radar** — a method that captures radio reflections from ionized trails left by meteors entering Earth’s atmosphere. The system was built using a **Yagi antenna** and an **SDR (Software Defined Radio)** receiver tuned to the GRAVES transmitter frequency at 143.05 MHz.
