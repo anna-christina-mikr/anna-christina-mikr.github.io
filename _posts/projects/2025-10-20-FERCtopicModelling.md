@@ -111,6 +111,26 @@ Here we see that with nine topics a much better separated topics, so we are stic
 | **8** | tariff, trump, lng, market, trade, oil, april, global, supply, import | Trade, tariffs, and global energy markets |
 
 
+What stands out in these topics is how the vocabulary of energy policy reflects both technical and political worlds.
+The model doesn’t just surface buzzwords, it sketches the infrastructure of how the U.S. talks about power itself.
+
+On one side, we see the hard engineering lexicon: words like transmission, capacity, load, generation, pipeline, and LNG anchor discussions in the physical systems that move electrons and fuel.
+These are the operational conversations, the ones about keeping the grid stable, expanding transmission lines, or meeting demand from new data centers.
+
+On the other side sits the language of governance and law: bill, house, committee, court, rule, EPA, order.
+This vocabulary reveals that energy is never just a technical challenge; it’s also a legislative and judicial process.
+Policy and legal terms intermingle with industry keywords, reminding us that decisions about pipelines or nuclear reactors are made as much in congressional committees and courtrooms as in control rooms.
+
+That overlap — between ferc, trump, epa, rule, and market — captures a particularly modern dynamic:
+the way energy debates intersect with climate regulation, trade policy, and even global supply chains.
+In other words, the “energy transition” isn’t just happening in the grid — it’s happening in the rhetoric that shapes how we understand and argue about it.
+
+Beyond static interpretation, these topics also open the door to temporal comparison.
+
+
+
+
+
 ### Analyze and Visualize Data
 
 GPT has the amazing capability of data analysis as I have evaluated in [this blog](https://yudong-94.github.io/personal-website/blog/EvaluatingChatGPTinDataScience/). It is even becoming stronger with [recent updates](https://openai.com/index/improvements-to-data-analysis-in-chatgpt/), though I haven’t got access to features like real-time table and visualization edits yet.
