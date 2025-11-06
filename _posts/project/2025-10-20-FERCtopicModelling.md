@@ -1,14 +1,14 @@
 ---
-title: "Energy Discourse"
+title: "What Drives the Conversation? Exploring Energy News Through Topic Modeling"
 date: 2024-05-26
 categories:
-  - blog
+  - project
 tags:
   - topic modelling
   - data science
   - analysis
 header:
-  teaser: /assets/images/article_covers/grid.png
+  teaser: /images/article_covers/grid.png
 excerpt: "How does the media shape the conversation around energy?"
 ---
 
