@@ -60,16 +60,13 @@ Interestingly, the coherence score reaches a peak at 12 topics and then steadily
 
 Another way however to evaluate our choice for number of topics is to check the topic:
 
-
-<div class="container">
-  <iframe src="/images/ferc/lda-viz.html"
-          width="100%"
-          height="650"
-          style="border:none; border-radius:10px;">
-  </iframe>
-</div>
-
-
+{% raw %}
+<iframe src="/images/ferc/lda-viz.html"
+        width="100%"
+        height="650"
+        style="border:none; border-radius:10px;">
+</iframe>
+{% endraw %}
 
 
 Taking it one step further, I challenged it to extract the data points as a downloadable dataset. It successfully saved the dataset as a CSV file with a download link! Notably, in the chart, there are two ‘Other’ categories, one under revenue and another under expenses. GPT automatically renamed one of them to ‘Other Expenses’ to avoid confusion – a detail I appreciated.  
