@@ -1,5 +1,4 @@
 ---
-layout: single
 title: "What Drives the Conversation? Exploring Energy News Through Topic Modeling"
 date: 2024-05-26
 categories:
