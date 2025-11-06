@@ -11,7 +11,6 @@ tags:
 header:
   teaser: /images/article_covers/grid.png
 excerpt: "How does the media shape the conversation around energy?"
-custom_css: ferc.css
 ---
 
 <style>
