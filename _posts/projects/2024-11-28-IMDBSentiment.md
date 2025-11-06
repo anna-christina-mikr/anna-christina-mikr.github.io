@@ -1,5 +1,5 @@
 ---
-title: "Predicting Positive vs Negative Reviews"
+title: "Predicting Positive vs Negative Movie Reviews"
 date: 2024-05-26
 categories:
   - project
