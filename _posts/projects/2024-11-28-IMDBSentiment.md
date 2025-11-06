@@ -8,6 +8,6 @@ tags:
   - data science
   - sentiment analysis
 header:
-  teaser: /images/article_covers/grid.png
+  teaser: /images/article_covers/imdb.png
 excerpt: "Using NLP methods to predict sentiment of IMDb movie reviews"
 ---
