@@ -80,14 +80,23 @@ $$
 
 Here, λ (*lambda*) controls the balance between how **frequent** and how **distinctive** a term is:
 
-- **λ = 1** → ranks words by how common they are within the topic (general terms).  
-- **λ = 0** → ranks words by how unique they are to that topic (specific terms).  
-- **λ ≈ 0.6** (default) → balances both views for interpretability.
+- λ = 1 → ranks words by how common they are within the topic (general terms).  
+- λ = 0 → ranks words by how unique they are to that topic (specific terms).  
+- λ ≈ 0.6 (default) → balances both views for interpretability.
 
 
 <div class="container">
   <img src="https://yudong-94.github.io/personal-website/assets/images/gpt-screenshots/gptapp_csv.png" alt="GPT Generated CSV" width="600" height="400">
 </div>
+
+We see here that a 12 topic LDA is insufficient, we have a lot of topic overlap; topic 4 and topic 5 are virtually the same, covering renewable energy projects and climate change related words. So in order to balance high coherence with topic uniqueness I chose 10 topics, and plotted this instead;
+
+<iframe src="/images/ferc/ldaviz9.html"
+        width="200%"
+        height="750"
+        style="border:none; border-radius:10px;">
+</iframe>
+
 
 ### Analyze and Visualize Data
 
