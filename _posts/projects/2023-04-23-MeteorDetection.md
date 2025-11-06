@@ -1,10 +1,6 @@
 ---
 title: "Meteor Observation by Forward Scatter Radar"
-excerpt: "A hands-on exploration of meteor detection using a custom-built Yagi antenna and a software-defined radio system."
-date: 2023-11-12
-header:
-  image: /images/article_covers/meteorobs-schematic.png
-  caption: "Waterfall plot showing an overdense meteor echo at 143.05 MHz."
+date: 2023-04-23
 categories:
   - projects
 tags:
@@ -14,8 +10,22 @@ tags:
   - radar
 layout: single
 author_profile: true
-toc: true
-toc_sticky: true
+header:
+  teaser: /images/article_covers/meteorobs-schematic.png
+excerpt: "A hands-on exploration of meteor detection using a custom-built Yagi antenna and a software-defined radio system."
+---
+layout: single
+title: "What Drives the Conversation? Exploring Energy News Through Topic Modeling"
+date: 2024-05-26
+categories:
+  - project
+tags:
+  - topic modelling
+  - data science
+  - analysis
+header:
+  teaser: /images/article_covers/grid.png
+excerpt: "How does the media shape the conversation around energy?"
 ---
 
 ### Overview
