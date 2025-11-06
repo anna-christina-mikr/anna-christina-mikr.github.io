@@ -18,9 +18,9 @@ excerpt: "A hands-on exploration of meteor detection using a custom-built Yagi a
 This project explores how meteors can be detected using **forward scatter radar** — a method that captures radio reflections from ionized trails left by meteors entering Earth’s atmosphere. The system was built using a **Yagi antenna** and an **SDR (Software Defined Radio)** receiver tuned to the GRAVES transmitter frequency at 143.05 MHz.
 
 ### Motivation
-After radar’s use in World War II, researchers discovered that meteors produced “false echoes” on radar screens. These reflections inspired a new way of observing meteor activity — by detecting their ionized trails through radio signals rather than optical telescopes. The project aimed to recreate this phenomenon with affordable, open-source tools.
+After radar’s use in World War II, researchers discovered that meteors produced “false echoes” on radar screens. These reflections inspired a new way of observing meteor activity, by detecting their ionized trails through radio signals rather than optical telescopes. The project aimed to recreate this phenomenon with affordable, open-source tools.
 
-This was my final project for my bachelor's degree in physics back in 2023! I did really enjoy this project and I constantly revisit it; at the time I did not have much experience in coding, but I think this project could really be streamlined using machine learning! Although sadly i no longer have the data, I want to go through how this could be improved has computer vision been incorporated. But first, here is the design and results: 
+This was my final project for my bachelor's degree in Physics back in 2023! I did really enjoy this project and I wanted to revisit it; at the time I completed it I did not have much experience in coding, but I think this project could really be streamlined using machine learning! Although sadly i no longer have the data, I want to go through how this could be improved has computer vision been incorporated. But first, here is the design and results: 
 
 ---
 
