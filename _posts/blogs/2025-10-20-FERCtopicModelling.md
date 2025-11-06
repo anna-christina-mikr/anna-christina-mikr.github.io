@@ -60,7 +60,11 @@ Interestingly, the coherence score reaches a peak at 12 topics and then steadily
 
 Another way however to evaluate our choice for number of topics is to check the topic 
 
-
+<iframe src="/images/ferc/lda-viz.html"
+        width="100%"
+        height="650"
+        style="border:none; border-radius:10px;">
+</iframe>
 
 
 <div class="container">
