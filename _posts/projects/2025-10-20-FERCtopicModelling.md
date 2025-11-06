@@ -140,7 +140,10 @@ Beyond static interpretation, these topics also open the door to temporal compar
 
 
 
+Topic 0: our most common topic investigates the federal and legislative side of energy. We see that it takes a dip from almost 0.2 to 0.15, although its still the most frequently discussed. I imagine this is because of a conversation leading up to the administration change in January 2025 about what changes would take effect in energy policy. And then eveyrthing post febuary 2025, died down a bit.
+Topic 1: data centers and nuclear generation increase significatly between 2024 and 2025, this makes sense. Due to the rise of AI demand, the electricity demand also skyrockets. Lots of discussion surrounding how we can power AI is being held, including throught the incerase of data centers as well s higher nuclear generation. President Trump has backed the increased production of nuclear energy and expanded nuclear projects nationwide, so the conversation seems to lean in that direction in the news cycle.
 
+Topic 2: 
 
 
 ### Analyze and Visualize Data
