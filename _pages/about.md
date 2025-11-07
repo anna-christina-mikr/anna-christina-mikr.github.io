@@ -1,6 +1,8 @@
 ---
 permalink: /about/
 title: "About"
+layout: single
+classes: page-about
 ---
 I’m a data scientist interested in how data can be used to explain the world around us. My work often combines analysis and visualization, from exploring patterns in education and climate data to building models that uncover real-world insights. I like finding clarity in messy datasets and turning that into something people can actually understand and use.
 
