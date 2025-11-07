@@ -35,7 +35,6 @@ The setup included:
 - Orientation toward **GRAVES** in France, with calculated elevation for optimal reflection angles.
 
 
-My setup:
   <img height="700" alt="Screenshot 2025-10-28 at 1 04 07 PM" src="https://github.com/user-attachments/assets/18bf384b-0338-4543-956d-3fe1200b7157" />
 
 #### Software Setup
