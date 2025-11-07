@@ -127,5 +127,5 @@ Overall, the project highlights how effective feature representation is central 
 
 ---
 
-**Repository:** [GitHub Project Link](https://github.com/anna-christina-mikr)  
+**Repository:** [GitHub Project Link](https://github.com/anna-christina-mikr/sentiment-analysis)
 **Dataset:** IMDb 50K Movie Reviews 
