@@ -51,8 +51,10 @@ Ths is what the signal lookslike; The measurements are centered around the Grave
 - **Overdense trails**: Brighter and longer-lasting (up to 2 s), with diffraction-like signal fluctuations due to interference between reflection points.
 Here is an example of an underdense, vs dense signal:
 
-<img width= 300 alt="meteor scatter" src="/images/meteor/waterfall2.png" />
-<img width= 300 alt="meteor scatter" src="/images/meteor/waterfall3.png" />
+<p float="left">
+  <img src="/images/meteor/waterfall2.png" alt="meteor scatter" width="300" />
+  <img src="/images/meteor/waterfall3.png" alt="meteor scatter" width="300" />
+</p>
 
 Head echoes — reflections from the plasma surrounding the meteor head — were occasionally detected, allowing direct velocity calculations. A Doppler shift of 800 Hz, for example, corresponded to a **radial velocity of 838.8 m/s**.
 
