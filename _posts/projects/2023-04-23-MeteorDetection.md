@@ -15,7 +15,7 @@ excerpt: "A hands-on exploration of meteor detection using a custom-built Yagi a
 
 
 ### Overview
-This project explores how meteors can be detected using **forward scatter radar** — a method that captures radio reflections from ionized trails left by meteors entering Earth’s atmosphere. The system was built using a **Yagi antenna** and an **SDR (Software Defined Radio)** receiver tuned to the GRAVES transmitter frequency at 143.05 MHz.
+This project explores how meteors can be detected using **forward scatter radar**, a method that captures radio reflections from ionized trails left by meteors entering Earth’s atmosphere. The system was built using a **Yagi antenna** and an **SDR (Software Defined Radio)** receiver tuned to the GRAVES transmitter frequency at 143.05 MHz.
 
 ### Motivation
 After radar’s use in World War II, researchers discovered that meteors produced “false echoes” on radar screens. These reflections inspired a new way of observing meteor activity, by detecting their ionized trails through radio signals rather than optical telescopes. The project aimed to recreate this phenomenon with affordable, open-source tools.
@@ -35,10 +35,8 @@ The setup included:
 - Orientation toward **GRAVES** in France, with calculated elevation for optimal reflection angles.
 
 
-
-<div class="container"
+My setup:
   <img height="700" alt="Screenshot 2025-10-28 at 1 04 07 PM" src="https://github.com/user-attachments/assets/18bf384b-0338-4543-956d-3fe1200b7157" />
-</div>
 
 #### Software Setup
 Signal processing was performed in **SDRsharp**, displaying intensity over time as a *waterfall plot*. Automated screen captures every 15 seconds enabled continuous observation from November 5–17. Meteor echoes were later classified manually as **underdense** or **overdense** based on signal shape and duration.
