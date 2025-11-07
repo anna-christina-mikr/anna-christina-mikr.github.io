@@ -40,15 +40,19 @@ The setup included:
 #### Software Setup
 Signal processing was performed in **SDRsharp**, displaying intensity over time as a *waterfall plot*. Automated screen captures every 15 seconds enabled continuous observation from November 5–17. Meteor echoes were later classified manually as **underdense** or **overdense** based on signal shape and duration.
 
-<img alt="meteor scatter" src="/images/meteor/waterfall1.png" />
-
 ---
 
 ### Results
+Ths is what the signal lookslike; The measurements are centered around the Graves frequency. These waterfall plots show the signal evolution over time, which allows us to exctract useful information about the meteor, its composition, velocity etc. 
+<img width= 500 alt="meteor scatter" src="/images/meteor/waterfall1.png" />
 
 #### Echo Classification
 - **Underdense trails**: Faint, short-lived reflections (<1 s), often appearing as thin horizontal lines on the waterfall diagram.  
 - **Overdense trails**: Brighter and longer-lasting (up to 2 s), with diffraction-like signal fluctuations due to interference between reflection points.
+Here is an example of an underdense, vs dense signal:
+<img width= 300 alt="meteor scatter" src="/images/meteor/waterfall2.png" />
+
+<img width= 300 alt="meteor scatter" src="/images/meteor/waterfall3.png" />
 
 Head echoes — reflections from the plasma surrounding the meteor head — were occasionally detected, allowing direct velocity calculations. A Doppler shift of 800 Hz, for example, corresponded to a **radial velocity of 838.8 m/s**.
 
