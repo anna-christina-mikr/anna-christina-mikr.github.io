@@ -136,23 +136,23 @@ Beyond static interpretation, these topics also open the door to temporal compar
   style="border:none; border-radius:10px;">
 </iframe>
 
+The most prominent theme, our federal and legislative energy policy topic, shows a noticeable decline in frequency over time, dropping from nearly 0.20 to about 0.15 in share. This pattern makes sense when viewed in the context of the 2025 administration change. In the months leading up to January, media attention was dominated by speculation around how new leadership might reshape national energy strategy. After the transition, however, discussion slowed, reflecting a pause as the administration’s policies began to take shape.
 
+Meanwhile, coverage related to data centers and nuclear generation increased significantly between 2024 and 2025. This rise closely follows the surge in AI adoption and the corresponding spike in electricity demand. As questions about how to power the next wave of AI dominated headlines, nuclear energy began to reemerge as a central part of that conversation. With the new administration openly backing expanded nuclear production and new projects nationwide, the media narrative shifted toward emphasizing capacity growth, energy security, and technological reliability.
 
-Topic 0: our most common topic investigates the federal and legislative side of energy. We see that it takes a dip from almost 0.2 to 0.15, although its still the most frequently discussed. I imagine this is because of a conversation leading up to the administration change in January 2025 about what changes would take effect in energy policy. And then eveyrthing post febuary 2025, died down a bit.
-Topic 1: data centers and nuclear generation increase significatly between 2024 and 2025, this makes sense. Due to the rise of AI demand, the electricity demand also skyrockets. Lots of discussion surrounding how we can power AI is being held, including throught the incerase of data centers as well s higher nuclear generation. President Trump has backed the increased production of nuclear energy and expanded nuclear projects nationwide, so the conversation seems to lean in that direction in the news cycle.
+In contrast, topics focused on environmental policy declined sharply. This suggests that climate and sustainability have taken a quieter role in the national energy dialogue, likely displaced by more immediate economic and industrial priorities. Similarly, mentions of utilities, renewables, LNG, and offshore development all decreased, reflecting a broader pivot away from decarbonization and toward supply-side concerns such as grid stability and generation capacity.
 
-Topic 2: 
+Other areas, however, have become more prominent. Coverage surrounding FERC orders rose in intensity, underscoring the growing regulatory attention to managing grid reliability and adapting to new forms of generation. Water infrastructure also gained visibility, likely reflecting growing concern about the resource strain that large-scale data centers and energy production place on local ecosystems.
 
+Finally, discussions of tariffs and trade policy saw renewed activity, particularly around Trump-era tariffs and their implications for energy technology imports and domestic production.
 
+Taken together, these shifts tell a clear story: the public and media conversation has turned from long-term environmental ambitions toward short-term energy security and infrastructure resilience. The period from 2024 to 2025 marks not just a political transition, but a fundamental reframing of the energy narrative — one now centered on power capacity, regulation, and the balance between technological ambition and sustainable supply.
 
 
 
 ### Final Thoughts
 
-In the sections above, I demonstrated how the GPT Desktop App can be seamlessly integrated into day-to-day analytics workflows. The example is simple but highlights the potential for various use cases. Here are some ideas that came to mind:
-* Summarize the articles you are reading and answer questions on the topic;
-* Ask coding questions and get real-time debugging help;
-* Reply to incoming emails;
-* Voice chat with GPT to brainstorm the analysis you are working on, etc.
-
-There are existing plugins for these use cases, but the GPT Desktop App simplifies them and allows you to interact with everything in one place. I plan to explore more, and I’d love to hear any ideas you have!
+Taken together, these shifts tell a clear story: the public and media conversation has turned from long-term environmental ambitions toward short-term energy security and infrastructure resilience. The period from 2024 to 2025 marks not just a political transition, but a fundamental reframing of the energy narrative, one now centered on power capacity, regulation, and the balance between technological ambition and sustainable supply.
+This analysis is still in progress, some next steps will include: 
+* Performing sentiment analysis: There are a lot of overlapping topics in 2024 and 2025, it would be interesting to see if they are spoken about in a different light. 
+* Creating a web app: a dashboard with more information about the energy space for a broader audience, potentially including a RAG chat bot that answers frequent energy related questions.
