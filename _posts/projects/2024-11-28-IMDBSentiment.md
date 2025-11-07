@@ -16,7 +16,7 @@ This is a step-by-step walk through of sentiment analysis on IMDb movie reviews.
 
 ## The Data
 
-The dataset used consists of 50,000 film reviews scraped from IMDb that are labelled as either positive or negative. It can be found on Kaggle: The goal is to develop an optimal model that accurately predicts sentiment and identifies patterns in review content. 
+The dataset used consists of 50,000 film reviews scraped from IMDb that are labelled as either positive or negative. It can be found on [Kaggle](https://www.kaggle.com/datasets/lakshmi25npathi/imdb-dataset-of-50k-movie-reviews)  The goal is to develop an optimal model that accurately predicts sentiment and identifies patterns in review content.  
 
 
 ---
