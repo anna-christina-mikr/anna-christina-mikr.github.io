@@ -94,5 +94,38 @@ The model used dropout regularization and ReLU activations to prevent overfittin
 
 ### Fine-tuned BERT Transformer
 
+
 The pre-trained **BERT** model achieved the highest overall performance, with **91.74% accuracy** and **AUC = 0.97**.  
-Fine-tuning for two epochs with a learning ra
+Fine-tuning for two epochs with a learning rate of 2e-5 and batch size of 16 yielded highly contextual sentiment understanding.
+
+---
+
+## Results Summary
+
+| Model | Embedding | Accuracy | AUC |
+|:------|:-----------|:----------|:-----|
+| Logistic Regression | TF-IDF | 89.83% | 0.96 |
+| KNN | TF-IDF | 79.92% | 0.88 |
+| Random Forest | TF-IDF | 84.02% | 0.91 |
+| DNN | TF-IDF | 87.23% | 0.95 |
+| BERT Transformer | BERT | **91.74%** | **0.97** |
+
+TF-IDF consistently yielded the most reliable results across traditional models, while BERT surpassed them with its ability to capture deeper contextual meaning.
+
+---
+
+## Conclusion & Future Work
+
+This analysis demonstrates that while traditional models like Logistic Regression and DNN perform well with TF-IDF features, **contextual embeddings like BERT** significantly enhance accuracy for nuanced text.
+
+Future improvements may include:
+- Comparing performance with **XLNet** or **GPT-based** models  
+- **Data augmentation** via synonym replacement or paraphrasing  
+- Combining ensemble models to enhance robustness  
+
+Overall, the project highlights how effective feature representation is central to sentiment prediction performance.
+
+---
+
+**Repository:** [GitHub Project Link](https://github.com/anna-christina-mikr)  
+**Dataset:** IMDb 50K Movie Reviews 
