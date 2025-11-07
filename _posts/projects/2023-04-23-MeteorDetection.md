@@ -40,7 +40,7 @@ The setup included:
 #### Software Setup
 Signal processing was performed in **SDRsharp**, displaying intensity over time as a *waterfall plot*. Automated screen captures every 15 seconds enabled continuous observation from November 5–17. Meteor echoes were later classified manually as **underdense** or **overdense** based on signal shape and duration.
 
-<img alt="meteor scatter" src="/images/meteor/waterfall1" />
+<img alt="meteor scatter" src="/images/meteor/waterfall1.png" />
 
 ---
 
