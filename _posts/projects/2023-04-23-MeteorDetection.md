@@ -61,6 +61,10 @@ Head echoes — reflections from the plasma surrounding the meteor head — were
 #### Detection Patterns
 Detection rates peaked around **November 11–12**, coinciding with the **Taurid meteor shower**. Most echoes appeared in the early morning hours, consistent with the Earth’s rotation — when the observation region faces the orbital direction, increasing meteor entry rates.
 
+### Hourly Rates
+<img width="1389" height="590" alt="download" src="https://github.com/user-attachments/assets/c18c72c2-3d2a-4e67-9ba7-14b1aa3d072a" />
+
+
 ---
 
 ### Discussion
