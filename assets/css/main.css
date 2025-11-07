@@ -8,6 +8,10 @@
   max-width: 700px;
   margin: 0 auto;
 }
+.page-article .page__content {
+  max-width: 700px;
+  margin: 0 auto;
+}
 
 /* Back to top button */
 .back-to-top {
