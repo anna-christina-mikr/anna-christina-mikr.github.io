@@ -12,13 +12,11 @@ header:
   teaser: /images/article_covers/imdb.png
 excerpt: "Using NLP methods to predict sentiment of IMDb movie reviews"
 ---
+This is a step-by-step walk through of sentiment analysis on IMDb movie reviews. The goal is to develop[ a model that accurately predicts whether a reciew is positive or negative by uncovering laanguage patterns that drive sentiment. This is a **Text Classification** task. 
 
+## The Data
 
-## Introduction
-
-IMDb is a popular platform where users rate and review movies. Our project explores how the textual content of reviews relates to their sentiment. The goal is to develop a model that accurately predicts whether a review is **positive or negative** while uncovering the language patterns that drive sentiment.
-
-The dataset used consists of 50,000 film reviews that are labelled as either positive or negative. The goal is to develop an optimal model that accurately predicts sentiment and identifies patterns in review content. 
+The dataset used consists of 50,000 film reviews scraped from IMDb that are labelled as either positive or negative. It can be found on Kaggle: The goal is to develop an optimal model that accurately predicts sentiment and identifies patterns in review content. 
 
 
 ---
@@ -43,7 +41,7 @@ Positive reviews frequently used terms like *“excellent”* and *“fun,”* w
 These clear distinctions highlighted the potential of text-based sentiment modeling.
 
 <div class="container"
-  <img width="792" height="265" alt="Screenshot 2025-11-06 at 1 28 55 PM" src="https://github.com/user-attachments/assets/5d0e11b9-524b-45fb-ab77-b6ffc27c96ea" />
+  <img width="792" height="265" alt="Screenshot 2025-11-06 at 1 28 55 PM" src="/images/imbd/wordcloud.png" />
 </div>
 
 ---
