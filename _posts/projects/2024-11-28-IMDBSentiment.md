@@ -40,15 +40,19 @@ Before modeling, we visualized word frequency patterns.
 Positive reviews frequently used terms like *“excellent”* and *“fun,”* while negative reviews often used *“worst”* and *“poor.”*  
 These clear distinctions highlighted the potential of text-based sentiment modeling.
 
-<div class="container"
-  <img width="792" height="265" alt="Screenshot 2025-11-06 at 1 28 55 PM" src="/images/imbd/wordcloud.png" />
-</div>
+<img height="200" alt="Screenshot 2025-11-06 at 1 28 55 PM" src="/images/imbd/wordcloud.png" />
 
 ---
 
 ## Methodology
+In order to capture relationships between text, we need to transform it into embeddings. Embedding are numerical representations of words, words with similar meaning will have similar representations.
 
-We evaluated multiple **text embedding methods**:
+There are different types of text embedding methods, some more complex than others. This [schematic](https://www.geeksforgeeks.org/nlp/word-embeddings-in-nlp/) captures the 3 general categories. 
+
+<img width="1220" height="601" alt="Screenshot 2025-11-07 at 10 07 44 AM" src="https://github.com/user-attachments/assets/bc3f0bc5-7c91-48ed-8cfe-30f3e2a002f5" />
+
+
+We evaluated the following:
 - **Bag of Words (BoW)**  
 - **TF-IDF**  
 - **GloVe**  
