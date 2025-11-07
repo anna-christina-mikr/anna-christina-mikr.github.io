@@ -40,7 +40,7 @@ Before modeling, we visualized word frequency patterns.
 Positive reviews frequently used terms like *“excellent”* and *“fun,”* while negative reviews often used *“worst”* and *“poor.”*  
 These clear distinctions highlighted the potential of text-based sentiment modeling.
 
-<img width="792" height="265" alt="Screenshot 2025-11-06 at 1 28 55 PM" src="/images/imbd/wordcloud.png" />
+<img height="200" alt="Screenshot 2025-11-06 at 1 28 55 PM" src="/images/imbd/wordcloud.png" />
 
 ---
 
