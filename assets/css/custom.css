@@ -12,10 +12,10 @@
   margin: 0 auto 3rem auto;
 }
 
-/* Enlarge teaser images */
 .archive .archive__item-teaser img {
   width: 100%;
-  height: auto;
+  height: 300px; /* adjust this number */
+  object-fit: cover; /* crops edges instead of squishing */
   border-radius: 10px;
 }
 
