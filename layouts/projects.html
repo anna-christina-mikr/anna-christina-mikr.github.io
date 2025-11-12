@@ -1,0 +1,25 @@
+---
+layout: default
+---
+
+<div class="page__inner-wrap">
+  {% if page.title %}
+  <header>
+    <h1 class="page__title">{{ page.title }}</h1>
+  </header>
+  {% endif %}
+
+  <div class="project-grid">
+    {% assign project_posts = site.posts | where_exp: "item", "item.categories contains 'projects'" %}
+    {% for post in project_posts %}
+    <div class="project-card">
+      <a href="{{ post.url | relative_url }}">
+        {% if post.header.teaser %}
+          <img src="{{ post.header.teaser | relative_url }}" alt="{{ post.title }}">
+        {% endif %}
+        <h2>{{ post.title }}</h2>
+      </a>
+    </div>
+    {% endfor %}
+  </div>
+</div>
