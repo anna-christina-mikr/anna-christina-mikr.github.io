@@ -3,7 +3,7 @@
 
 @import "minimal-mistakes/skins/{{ site.minimal_mistakes_skin | default: 'default' }}";
 @import "minimal-mistakes";
-@import "custom"
+@import url("custom.css");
 .page-about .page__content {
   max-width: 700px;
   margin: 0 auto;
