@@ -1,45 +1,37 @@
-.project-grid {
-  display: flex;
-  flex-direction: column;
-  gap: 3rem; /* space between project cards */
-  margin-top: 2rem;
+/* Custom overrides for Projects page layout */
+
+/* Make each project full width (stacked vertically) */
+.archive .grid__wrapper {
+  display: block !important;
 }
 
-.project-card {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  text-align: left;
-  background: #fff;
-  border-radius: 12px;
-  padding: 2rem;
-  box-shadow: 0 6px 20px rgba(0,0,0,0.08);
-  transition: transform 0.2s ease, box-shadow 0.2s ease;
+/* Each post item takes full width */
+.archive .grid__item {
+  width: 100% !important;
+  max-width: 900px;
+  margin: 0 auto 3rem auto;
 }
 
-.project-card:hover {
-  transform: translateY(-6px);
-  box-shadow: 0 8px 24px rgba(0,0,0,0.12);
-}
-
-.project-card img {
+/* Enlarge teaser images */
+.archive .archive__item-teaser img {
   width: 100%;
-  max-width: 800px;
-  aspect-ratio: 16 / 9;
-  object-fit: cover;
-  border-radius: 12px;
-  margin-bottom: 1.5rem;
+  height: auto;
+  border-radius: 10px;
 }
 
-.project-card h2 {
-  font-size: 1.8rem;
-  margin: 0.5rem 0;
-  color: #111;
+/* Style the titles and excerpts for better readability */
+.archive .archive__item-title {
+  font-size: 1.8em;
+  margin-top: 0.5em;
 }
 
-.project-excerpt {
-  font-size: 1.1rem;
+.archive .archive__item-excerpt {
+  font-size: 1.1em;
   color: #444;
-  line-height: 1.6;
-  max-width: 800px;
+  line-height: 1.5;
+}
+
+/* Optional: reduce padding between cards */
+.archive {
+  padding-top: 2rem;
 }
