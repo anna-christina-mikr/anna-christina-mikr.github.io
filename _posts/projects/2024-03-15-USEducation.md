@@ -6,5 +6,5 @@ categories:
 header:
   teaser: /images/article_covers/greek-synonym.png
 excerpt: "An AI-powered Greek dictionary combining Babiniotis, Wiktionary, and slang.gr for better synonym and antonym suggestions."
-external_url: "https://ohabot-cu.github.io/US-Education-Trends/"
+external_url: https://ohabot-cu.github.io/US-Education-Trends/
 ---
