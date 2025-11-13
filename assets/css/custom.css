@@ -13,8 +13,8 @@
 }
 
 .archive .archive__item-teaser img {
-  width: 100%;
-  height: 100%; /* adjust this number */
+  width: 90%;
+  height: 80%; /* adjust this number */
   object-fit: cover; /* crops edges instead of squishing */
   border-radius: 10px;
 }
