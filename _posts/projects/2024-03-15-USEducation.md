@@ -6,7 +6,7 @@ categories:
 tags:
   - education
   - data-visualization
-  - r
+  - R
 header:
   teaser: /images/article_covers/meteorobs-schematic.png
 header:
