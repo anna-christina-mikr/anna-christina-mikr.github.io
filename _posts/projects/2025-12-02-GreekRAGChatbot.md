@@ -1,4 +1,3 @@
-
 ---
 title: "RAG Chatbot using OPENAI, FASTAPI and BM25 retrieval"
 date: 2025-12-02
@@ -12,8 +11,6 @@ tags:
 header:
   teaser: /images/article_covers/grid.png
 classes: page-article
-
-
 ---
 
 
