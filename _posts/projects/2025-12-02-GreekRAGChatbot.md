@@ -1,4 +1,5 @@
 
+---
 title: "RAG Chatbot using OPENAI, FASTAPI and BM25 retrieval"
 date: 2025-12-02
 categories:
@@ -14,6 +15,7 @@ classes: page-article
 external_url: https://ohabot-cu.github.io/US-Education-Trends/
 
 ---
+
 
 
 # Greek RAG Vocabulary App
