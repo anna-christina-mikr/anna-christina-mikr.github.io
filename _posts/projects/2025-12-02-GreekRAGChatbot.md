@@ -20,7 +20,7 @@ external_url: https://ohabot-cu.github.io/US-Education-Trends/
 
 # Greek RAG Vocabulary App
 
-**Live Demo:** [Visit the App](https://your-render-url.onrender.com)  
+**Live Demo:** [Visit the App](https://greek-rag-5.onrender.com/)
 **Source Code:** [GitHub Repository](https://github.com/anna-christina-mikr/greek-rag)  
 
 This project is an interactive **Greek vocabulary assistant** built with **FastAPI** and a **retrieval-augmented generation (RAG)** approach. It leverages a Greek dictionary dataset and **BM25 indexing** to retrieve relevant definitions and examples, then uses **OpenAI’s GPT-4.1-mini** model to generate concise explanations and example sentences in Greek.  
