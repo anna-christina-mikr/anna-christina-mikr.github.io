@@ -12,7 +12,7 @@ tags:
 header:
   teaser: /images/article_covers/grid.png
 classes: page-article
-external_url: https://ohabot-cu.github.io/US-Education-Trends/
+
 
 ---
 
