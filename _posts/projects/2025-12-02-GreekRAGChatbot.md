@@ -9,7 +9,7 @@ tags:
   - chatbot
   - AI
 header:
-  teaser: /images/article_covers/grid.png
+  teaser: /images/article_covers/greek/web-demo.png
 classes: page-article
 ---
 
