@@ -9,7 +9,6 @@ tags:
 
 header:
   teaser: /images/article_covers/chrome-extension.png
-excerpt: "A hands-on exploration of meteor detection using a custom-built Yagi antenna and a software-defined radio system."
 ---
 
 Building a Grammarly-style AI writing assistant. 
