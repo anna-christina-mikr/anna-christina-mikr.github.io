@@ -18,6 +18,8 @@ Building a Grammarly-style AI writing assistant.
 I wanted this for personal use, my work involves writing up results for Genomic research, and I feel at times that I want real time improvement on the Google Doc I am working on. 
 I also wanted the model to be context aware, here its working on Research, and it needs to be aware of terminology and the scope of the project; 
 
+**Source Code:** [GitHub Repository](https://github.com/anna-christina-mikr/chrome-extension)  
+
 ---
 
 
